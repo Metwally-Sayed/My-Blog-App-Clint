@@ -14,20 +14,16 @@ const Postdetails = () => {
     setPost(foundPost);
   }, [data]);
 
-
   return (
-    <Container>
+    <Container className="mt-4">
       <Card style={{ margin: 'auto', width: '90%' }}>
         <Card.Body>
-          <Card.Title>
-            <h1>Post Details</h1>
-          </Card.Title>
           <br />
-          <Card.Subtitle className="mb-2 text-muted">
+          <Card.Subtitle className="mb-2 ">
             <h4>{post?.title}</h4>
           </Card.Subtitle>
           <br />
-          <Card.Text>
+          <Card.Text className="text-muted">
             <p>{post?.body}</p>
           </Card.Text>
           <br />
