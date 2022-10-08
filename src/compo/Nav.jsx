@@ -27,13 +27,13 @@ function TextLinkExample() {
             <Link className="m-3" style={{ textDecoration: 'none' }} to={'/'}>
               Home
             </Link>
-            <Link
+            {/* <Link
               className="m-3"
               style={{ textDecoration: 'none' }}
               to={'/profile'}
             >
               Profile
-            </Link>
+            </Link> */}
             <Link
               className="m-3"
               style={{ textDecoration: 'none' }}

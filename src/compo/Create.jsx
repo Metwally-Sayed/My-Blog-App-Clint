@@ -35,7 +35,7 @@ function Create() {
           submitHandler(e);
         }}
       >
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Group className="mt-4" controlId="exampleForm.ControlInput1">
           <Form.Label> Blog Title </Form.Label>
           <Form.Control
             type="text"
